@@ -35,7 +35,7 @@ class CannonBall {
   }
 
   shoot() {
-    //adding new angle 
+    //agregar nuevo ángulo 
     var newAngle = cannon.angle - 0.5
     var velocity = p5.Vector.fromAngle(newAngle);
     velocity.mult(20);
